@@ -112,7 +112,7 @@ footer{
     font-family: $font1;
     letter-spacing: 2px;
     text-align: $text;
-    color: rgb(245, 243, 244);
+    color: rgba(245, 243, 244, 0.87);
     padding: 10px;
 }
 
@@ -122,8 +122,23 @@ footer{
     line-height: 1.6;
     font-family: $font2;
     text-align: start;
-    margin-left: 2px;
+    margin-left: 4px;
     margin-right: 2px;
+}
+
+.padreFlexHistoria__parrafos-1, .padreFlexHistoria__parrafos-2, .padreFlexHistoria__parrafos-3{
+    display: flex;
+    flex-direction: row;
+}
+
+.hrefHistoria{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(173, 173, 173);
+}
+
+.hrefHistoria:hover{
+    color: antiquewhite;
 }
 
 /*------galeria------*/
@@ -187,6 +202,17 @@ textarea{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.boton{
+    border: 2px solid;
+}
+
+.boton:hover{
+    background-color: rgb(36, 35, 35);
+    color: antiquewhite;
 }
 
 /*----footer------*/

@@ -103,7 +103,7 @@ footer {
   font-family: "Bebas Neue", cursive;
   letter-spacing: 2px;
   text-align: center;
-  color: #f5f3f4;
+  color: rgba(245, 243, 244, 0.87);
   padding: 10px; }
 
 .padreFlexHistoria__parrafos {
@@ -112,8 +112,20 @@ footer {
   line-height: 1.6;
   font-family: "Anton", sans-serif;
   text-align: start;
-  margin-left: 2px;
+  margin-left: 4px;
   margin-right: 2px; }
+
+.padreFlexHistoria__parrafos-1, .padreFlexHistoria__parrafos-2, .padreFlexHistoria__parrafos-3 {
+  display: flex;
+  flex-direction: row; }
+
+.hrefHistoria {
+  text-decoration: none;
+  font-weight: bold;
+  color: #adadad; }
+
+.hrefHistoria:hover {
+  color: antiquewhite; }
 
 /*------galeria------*/
 .padreFlexGaleria {
@@ -175,7 +187,16 @@ textarea {
 .botonesFormulario {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly; }
+  justify-content: space-evenly;
+  padding: 5px;
+  border-radius: 6px; }
+
+.boton {
+  border: 2px solid; }
+
+.boton:hover {
+  background-color: #242323;
+  color: antiquewhite; }
 
 /*----footer------*/
 #footer {
