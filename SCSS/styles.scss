@@ -27,6 +27,10 @@ header, footer{
     width: 100%;
 }
 
+.logo--img{
+    width: 100%;
+}
+
 h2{
     text-align: $text;
     color: rgb(186, 24, 27);
@@ -43,18 +47,24 @@ footer{
     margin-top: 150px;
 }
 
+.nav-item{
+    text-align: center;
+}
+
 /*---index---*/
 .imagenIndex1{
     width: $width;
+    max-width: 500px;
 }
 
 .imagenIndex2{
     width: $width;
+    max-width: 500px;
 }
 
 .sectionImagenes{
+    display: flex;
     flex-direction: column;
-    margin: 45px;
 }
 
 .sectionImagenes__titulosFotos{
@@ -104,6 +114,8 @@ footer{
 .padreFlexHistoria{
     display: flex;
     flex-direction: column;
+    text-align: center;
+    justify-content: center;
 }
 
 .padreFlexHistoria__titulos{
@@ -181,8 +193,7 @@ footer{
 }
 
 .input {
-    @include formulario;
-    transition: all 1s;}
+    @include formulario;}
 
 .input:focus{
     font-size: 18px;
@@ -195,15 +206,7 @@ select {
 textarea{
     margin-left: 30px;
     margin-right: 30px;
-    margin-bottom: 10px;
-}
-
-.p{
-    color: antiquewhite;
-    margin-left: 30px;
-    margin-top: 10px;
-    text-align: center;
-    font-size: 20px;
+    margin-bottom: 15px;
 }
 
 .botonesFormulario{
@@ -223,11 +226,21 @@ textarea{
     color: antiquewhite;
 }
 
+.divCheckbox{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.labelCheckbox{
+    color: antiquewhite;
+}
+
 /*----footer------*/
 #footer{
     display: flex;
     flex-direction: row;
-    margin-top: 200px;
+    margin-bottom: 10px;
     justify-content: space-between;
 }
 
@@ -258,6 +271,13 @@ textarea{
     h2{
         font-size: 50px;
         letter-spacing: 5px;
+    }
+
+    .sectionImagenes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .sectionImagenes__titulosFotos{
@@ -291,6 +311,8 @@ textarea{
 .padreFlexHistoria{
     display: flex;
     flex-direction: column;
+    text-align: center;
+    justify-content: center;
 }
 
 .padreFlexHistoria__titulos{
@@ -457,6 +479,10 @@ textarea{
 .padreFlexHistoria{
     display: flex;
     flex-direction: column;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+    justify-content: center;
 }
 
 .padreFlexHistoria__titulos{
@@ -513,7 +539,7 @@ textarea{
     margin-top: 15px;}
 
 .input:focus{
-    font-size: 18px;
+    font-size: 23px;
 }
 
 select {
@@ -527,12 +553,5 @@ textarea{
     margin-left: 30px;
     margin-right: 30px;
     margin-bottom: 15px;
-}
-
-.p{
-    margin-left: 30px;
-    margin-top: 15px;
-    font-size: 20px;
-    text-align: center;
 }
 }
