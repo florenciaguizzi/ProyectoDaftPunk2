@@ -22,11 +22,13 @@
 
 <body>
     <header>
+        <!---Inicio header bootstrap-->
         <nav class="navbar navbar-expand-sm navbar-dark bg-black" aria-label="Third navbar example">
             <div class="container-fluid">
                 <div a class="navbar-brand" href="index.html">
                     <img class="logo--img" src="./multimedia/logo.png" alt="Logo Daft Punk">
                 </div>
+
                 <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -42,27 +44,29 @@
                             <a class="nav-link" href="discografia.html">Discografía</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="historia.html">Historia</a>
+                            <a class="nav-link" href="historia.html">Historia</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="galeria.html">Galería</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contacto.html">Contacto</a>
+                            <a class="nav-link active" href="contacto.html">Contacto</a>
                         </li>
                 </div>
             </div>
         </nav>
+        <!---Fin header bootstrap-->
     </header>
 
     <main>
         <h1 hidden>Daft Punk</h1>
+        <!---Inicio historia-->
         <h2>Historia</h2>
 
         <hr>
 
         <div>
-            <h3 class="historiaTitulos">Primeros años</h3>
+            <h3 class="historiaTitulos fondoGrisHistoria">Primeros años</h3>
             <section class="sectionHistoria1">
                 <article class="historiaParrafos"> El dúo francés conformado
                     por <a class="hrefHistoria" href="https://es.wikipedia.org/wiki/Thomas_Bangalter"
@@ -105,7 +109,7 @@
                 </article>
             </section>
 
-            <h3 class="historiaTitulos">Discovery</h3>
+            <h3 class="historiaTitulos fondoGrisHistoria">Discovery</h3>
             <section class="sectionHistoria3">
                 <article class="historiaParrafos">
                     <div>
@@ -163,7 +167,7 @@
                     éxito de su carrera ganando dos Grammys en el 2014.</article>
             </section>
 
-            <h3 class="historiaTitulos">Despedida</h3>
+            <h3 class="historiaTitulos fondoGrisHistoria">Despedida</h3>
             <section class="sectionHistoria5">
                 <article class="historiaParrafos">
                     <video class="videoEpilogue" controls width="100%">
@@ -183,9 +187,11 @@
                 </article>
             </section>
         </div>
+        <!---Fin historia-->
 
     </main>
 
+    <!---Inicio footer-->
     <footer id="footer">
         <div class="footer__socialMedia">
             <a class="socialMedia-item" href="https://www.facebook.com/daftpunk" target="_blank"><img
@@ -199,6 +205,8 @@
             <p class="info-item">Email: email@gmail.com</p>
         </div>
     </footer>
+    <!---Fin footer-->
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
