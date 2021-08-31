@@ -38,11 +38,11 @@ footer {
 /*---index---*/
 .imagenIndex1 {
   width: 100%;
-  max-width: 500px; }
+  max-width: 600px; }
 
 .imagenIndex2 {
   width: 100%;
-  max-width: 500px; }
+  max-width: 600px; }
 
 .sectionImagenes {
   display: flex;
@@ -241,7 +241,6 @@ textarea {
   .sectionImagenes {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center; }
   .sectionImagenes__titulosFotos {
     font-size: 30px; }
@@ -250,8 +249,8 @@ textarea {
     height: 160px; }
   /*--discografia--*/
   .divInframe {
-    margin-left: 30px;
-    margin-right: 30px; }
+    display: flex;
+    justify-content: center; }
   .sectionDiscografia__titulosRojos,
   .sectionDiscografia__titulosGrises,
   #sectionDiscografia__tituloGrisOscuro,
@@ -276,15 +275,21 @@ textarea {
     padding: 10px; }
   .sectionHistoria1 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-left: 20px;
     margin-right: 20px;
     background-color: #1b1b1b; }
+  .divHistoria1 {
+    display: flex;
+    flex-direction: row; }
   .sectionHistoria2 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-left: 20px;
     margin-right: 20px; }
+  .divHistoria2 {
+    display: flex;
+    flex-direction: row; }
   .primerFoto {
     width: 400px;
     float: left;
@@ -293,10 +298,13 @@ textarea {
     margin-top: 5px; }
   .sectionHistoria3 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-left: 20px;
     margin-right: 20px;
     background-color: #1b1b1b; }
+  .divHistoria3 {
+    display: flex;
+    flex-direction: row; }
   .iframeHistoria {
     width: 450px;
     height: 250px;
@@ -306,15 +314,21 @@ textarea {
     margin-top: 8px; }
   .sectionHistoria4 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-left: 20px;
     margin-right: 20px; }
+  .divHistoria4 {
+    display: flex;
+    flex-direction: row; }
   .sectionHistoria5 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-left: 20px;
     margin-right: 20px;
     background-color: #1b1b1b; }
+  .divHistoria5 {
+    display: flex;
+    flex-direction: row; }
   .videoEpilogue {
     width: 400px;
     float: right;
@@ -397,6 +411,8 @@ textarea {
     transform: scale(2, 2); }
   .imagen7 {
     grid-area: imagen7; }
+  .padreFlexGaleria {
+    max-width: 1024px; }
   /*------index------*/
   .sectionImagenes__bloque1, .sectionImagenes__bloque2 {
     display: flex;
@@ -411,7 +427,7 @@ textarea {
     text-decoration: underline;
     letter-spacing: 4px;
     font-size: 25px;
-    padding: 20px;
+    padding: 15px;
     margin-top: 40px;
     margin-bottom: 25px; }
   .historiaParrafos {
@@ -422,8 +438,7 @@ textarea {
     width: 100%;
     padding: 4px; }
   .sectionHistoria1, .sectionHistoria2, .sectionHistoria3, .sectionHistoria4, .sectionHistoria5 {
-    margin-left: 70px;
-    margin-right: 70px; }
+    max-width: 80%; }
   .primerFoto {
     width: 580px;
     height: 460px; }
@@ -438,6 +453,10 @@ textarea {
     margin-left: 20px; }
   .fondoGrisHistoria {
     background-color: #1b1b1b; }
+  .mainHistoria {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
   /*------contacto------*/
   .form {
     display: flex;
@@ -467,4 +486,4 @@ textarea {
     margin-bottom: 15px; }
   /*---discografia---*/
   .iframeDiscografia {
-    max-width: 1000px; } }
+    width: 80%; } }

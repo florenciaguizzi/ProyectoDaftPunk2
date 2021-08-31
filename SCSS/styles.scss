@@ -55,12 +55,12 @@ footer{
 /*---index---*/
 .imagenIndex1{
     width: $width;
-    max-width: 500px;
+    max-width: 600px;
 }
 
 .imagenIndex2{
     width: $width;
-    max-width: 500px;
+    max-width: 600px;
 }
 
 .sectionImagenes{
@@ -273,7 +273,6 @@ textarea{
     .sectionImagenes{
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
     }
 
@@ -288,8 +287,8 @@ textarea{
 
 /*--discografia--*/
 .divInframe{
-    margin-left: 30px;
-    margin-right: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 .sectionDiscografia__titulosRojos, 
@@ -325,17 +324,27 @@ textarea{
 
 .sectionHistoria1{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-left: 20px;
     margin-right: 20px;
     background-color: rgb(27, 27, 27);
 }
 
-.sectionHistoria2{
+.divHistoria1{
     display: flex;
     flex-direction: row;
+}
+
+.sectionHistoria2{
+    display: flex;
+    flex-direction: column;
     margin-left: 20px;
     margin-right: 20px;
+}
+
+.divHistoria2{
+    display: flex;
+    flex-direction: row;
 }
 
 .primerFoto{
@@ -348,10 +357,15 @@ textarea{
 
 .sectionHistoria3{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-left: 20px;
     margin-right: 20px;
     background-color: rgb(27, 27, 27);
+}
+
+.divHistoria3{
+    display: flex;
+    flex-direction: row;
 }
 
 .iframeHistoria{
@@ -365,17 +379,27 @@ textarea{
 
 .sectionHistoria4{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-left: 20px;
     margin-right: 20px;
 }
 
-.sectionHistoria5{
+.divHistoria4{
     display: flex;
     flex-direction: row;
+}
+
+.sectionHistoria5{
+    display: flex;
+    flex-direction: column;
     margin-left: 20px;
     margin-right: 20px;
     background-color: rgb(27, 27, 27);
+}
+
+.divHistoria5{
+    display: flex;
+    flex-direction: row;
 }
 
 .videoEpilogue{
@@ -528,6 +552,10 @@ textarea{
         grid-area: imagen7;
     }
 
+    .padreFlexGaleria{
+        max-width: 1024px;
+    }
+
     /*------index------*/
     .sectionImagenes__bloque1, .sectionImagenes__bloque2{
         display: flex;
@@ -545,7 +573,7 @@ textarea{
     text-decoration: underline;
     letter-spacing: 4px;
     font-size: 25px;
-    padding: 20px;
+    padding: 15px;
     margin-top: 40px;
     margin-bottom: 25px;
 }
@@ -560,8 +588,7 @@ textarea{
 }
 
 .sectionHistoria1, .sectionHistoria2, .sectionHistoria3, .sectionHistoria4, .sectionHistoria5{
-    margin-left: 70px;
-    margin-right: 70px;
+    max-width: 80%;
 }
 
 .primerFoto{
@@ -584,6 +611,12 @@ textarea{
 
 .fondoGrisHistoria{
     background-color: rgb(27, 27, 27);
+}
+
+.mainHistoria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /*------contacto------*/
@@ -626,6 +659,6 @@ textarea{
 
 /*---discografia---*/
 .iframeDiscografia{
-    max-width: 1000px;
+    width: 80%;
 }
 }
