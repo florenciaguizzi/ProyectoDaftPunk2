@@ -461,8 +461,6 @@ textarea{
 }
 
 
-
-
 @media only screen and (min-width: 1024px){
     .sectionImagenes__bloque1{
         margin-left: 50px;
@@ -554,6 +552,7 @@ textarea{
 
     .padreFlexGaleria{
         max-width: 1024px;
+        margin: auto;
     }
 
     /*------index------*/
@@ -623,7 +622,8 @@ textarea{
 .form {
     display: flex;
     flex-direction: column; 
-    margin: 0 250px;
+    margin: auto;
+    width: 40%;
 }
 
 .label {

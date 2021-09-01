@@ -163,28 +163,28 @@ footer {
   margin-right: 45px; }
 
 .label {
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
   margin-bottom: 10px;
-  margin-top: 10px;
+  margin-top: 5px;
   color: antiquewhite;
   text-align: center;
   font-size: 16px; }
 
 .input {
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
   margin-bottom: 10px;
-  margin-top: 10px; }
+  margin-top: 5px; }
 
 .input:focus {
   font-size: 18px; }
 
 select {
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
   margin-bottom: 10px;
-  margin-top: 10px; }
+  margin-top: 5px; }
 
 textarea {
   margin-left: 30px;
@@ -412,7 +412,8 @@ textarea {
   .imagen7 {
     grid-area: imagen7; }
   .padreFlexGaleria {
-    max-width: 1024px; }
+    max-width: 1024px;
+    margin: auto; }
   /*------index------*/
   .sectionImagenes__bloque1, .sectionImagenes__bloque2 {
     display: flex;
@@ -461,7 +462,8 @@ textarea {
   .form {
     display: flex;
     flex-direction: column;
-    margin: 0 250px; }
+    margin: auto;
+    width: 40%; }
   .label {
     margin-left: 30px;
     margin-right: 30px;
